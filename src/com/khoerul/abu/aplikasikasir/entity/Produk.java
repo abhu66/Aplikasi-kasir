@@ -12,7 +12,7 @@ package com.khoerul.abu.aplikasikasir.entity;
 public class Produk {
     private String id;
     private String namaProduk;
-    private double hargaProduk;
+    private String hargaProduk;
 
     public String getId() {
         return id;
@@ -30,11 +30,11 @@ public class Produk {
         this.namaProduk = namaProduk;
     }
 
-    public double getHargaProduk() {
+    public String getHargaProduk() {
         return hargaProduk;
     }
 
-    public void setHargaProduk(double hargaProduk) {
+    public void setHargaProduk(String hargaProduk) {
         this.hargaProduk = hargaProduk;
     }
     
